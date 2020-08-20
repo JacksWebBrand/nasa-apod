@@ -25,7 +25,6 @@ function showContent(page) {
     setTimeout(() => {
         loader.classList.add('hidden');
     }, 1000);
-    
 }
 
 function createDOMNodes(page) {
