@@ -9,6 +9,7 @@ body {
   font-family: Verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
+  text-align: justify;
 }
 
 .container {
@@ -119,7 +120,6 @@ body {
   body {
     line-height: 1.4rem;
     font-size: 0.9rem;
-    text-align: justify;
   }
 
   .images-container {
