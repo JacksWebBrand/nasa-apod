@@ -22,7 +22,10 @@ function showContent(page) {
         resultsNav.classList.add('hidden')
         favoritesNav.classList.remove('hidden');
     }
-    loader.classList.add('hidden');
+    setTimeout(() => {
+        loader.classList.add('hidden');
+    }, 1000);
+    
 }
 
 function createDOMNodes(page) {
